@@ -21,15 +21,18 @@ C++ Qt 四则运算计算器 支持自定义函数和常量
 
 ### Built With
 
-* [Qt 5.15]()
+* [Qt Creator 6.0.0(community)]()
+* [Desktop_Qt_5_15_2_MinGW_64_bit ]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+由于 Qt 的资源文件不能修改，而我希望用户能够自定义常量和函数。
 
-双击常量或函数，自动加入表达式。
+所以 Json 文件不能作为资源文件，而是直接以相对路径读取。将 res 文件夹复制到生成的编译文件夹目录下，这样才能读写 Json 常量和 Json 函数。
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -39,7 +42,7 @@ C++ Qt 四则运算计算器 支持自定义函数和常量
 
 - [x] 支持自定义常量和函数
 - [x] 使用 json 文件保存，保存用户修改
-- [x] 错误提示
+- [x] 异常抛出与提示
 - [ ] 复数模式和大数模式
 
 <p align="right">(<a href="#top">back to top</a>)</p>
