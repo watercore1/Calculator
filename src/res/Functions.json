@@ -1,0 +1,59 @@
+[
+    {
+        "Description": "求两数之和。",
+        "Expression": "a+b",
+        "Name": "sum",
+        "Parameters": [
+            {
+                "Description": "第一个数",
+                "Name": "a"
+            },
+            {
+                "Description": "第二个数",
+                "Name": "b"
+            }
+        ]
+    },
+    {
+        "Description": "求三个数的平均值。",
+        "Expression": "(x1+x2+x3)/3",
+        "Name": "avg",
+        "Parameters": [
+            {
+                "Description": "第一个数",
+                "Name": "x1"
+            },
+            {
+                "Description": "第二个数",
+                "Name": "x2"
+            },
+            {
+                "Description": "第三个数",
+                "Name": "x3"
+            }
+        ]
+    },
+    {
+        "Description": "四个数之和",
+        "Expression": "x+y+z+t",
+        "Name": "sum4",
+        "Parameters": [
+            {
+                "Description": "第一个数",
+                "Name": "x"
+            },
+            {
+                "Description": "第二个数",
+                "Name": "y"
+            },
+            {
+                "Description": "第三个数",
+                "Name": "z"
+            },
+            {
+                "Description": "第四个数",
+                "Name": "t"
+            }
+        ]
+    }
+]
