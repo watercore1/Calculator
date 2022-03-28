@@ -1,6 +1,6 @@
-# ProjectName
+# 四则运算计算器
 
-ProjectName and Description
+C++ Qt 四则运算计算器 支持自定义函数和常量
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -15,15 +15,13 @@ ProjectName and Description
 
 ![Product Name Screen Shot][product-screenshot]
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `repo_name`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ### Built With
 
-* []()
-* []()
+* [Qt 5.15]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -31,7 +29,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+双击常量或函数，自动加入表达式。
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -39,10 +37,10 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ROADMAP -->
 ## ROADMAP
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] 支持自定义常量和函数
+- [ ] 使用 json 文件保存，保存用户修改
+- [ ] 错误提示
+- [x] 复数模式和大数模式
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
